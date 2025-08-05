@@ -1,0 +1,33 @@
+- Tailwind
+
+{ 'tyrian_purple': { DEFAULT: '#64113f', 100: '#14030d', 200: '#280719', 300: '#3c0a26', 400: '#500e32', 500: '#64113f', 600: '#a71c69', 700: '#dd3692', 800: '#e879b6', 900: '#f4bcdb' }, 'blush': { DEFAULT: '#de4d86', 100: '#33091a', 200: '#661334', 300: '#991c4e', 400: '#cb2568', 500: '#de4d86', 600: '#e572a0', 700: '#ec95b8', 800: '#f2b8cf', 900: '#f9dce7' }, 'salmon_pink': { DEFAULT: '#f29ca3', 100: '#46090e', 200: '#8d121d', 300: '#d31b2b', 400: '#e95562', 500: '#f29ca3', 600: '#f5b0b5', 700: '#f7c3c8', 800: '#fad7da', 900: '#fcebed' }, 'tea_rose_(red)': { DEFAULT: '#f7cacd', 100: '#4e0c10', 200: '#9c1720', 300: '#e02e39', 400: '#eb7c83', 500: '#f7cacd', 600: '#f9d4d7', 700: '#fadfe1', 800: '#fceaeb', 900: '#fdf4f5' }, 'non_photo_blue': { DEFAULT: '#84e6f8', 100: '#043e48', 200: '#087c91', 300: '#0dbad9', 400: '#3ed9f4', 500: '#84e6f8', 600: '#9fecf9', 700: '#b7f1fb', 800: '#cff5fc', 900: '#e7fafe' } }
+
+- CSV
+
+64113f,de4d86,f29ca3,f7cacd,84e6f8
+
+- With #
+
+#64113f, #de4d86, #f29ca3, #f7cacd, #84e6f8
+
+- Array
+
+["64113f","de4d86","f29ca3","f7cacd","84e6f8"]
+
+- Object
+
+{"Tyrian purple":"64113f","Blush":"de4d86","Salmon pink":"f29ca3","Tea rose (red)":"f7cacd","Non Photo blue":"84e6f8"}
+
+- Extended Array
+
+[{"name":"Tyrian purple","hex":"64113f","rgb":[100,17,63],"cmyk":[0,83,37,61],"hsb":[327,83,39],"hsl":[327,71,23],"lab":[22,40,-7]},{"name":"Blush","hex":"de4d86","rgb":[222,77,134],"cmyk":[0,65,40,13],"hsb":[336,65,87],"hsl":[336,69,59],"lab":[55,61,-1]},{"name":"Salmon pink","hex":"f29ca3","rgb":[242,156,163],"cmyk":[0,36,33,5],"hsb":[355,36,95],"hsl":[355,77,78],"lab":[73,33,10]},{"name":"Tea rose (red)","hex":"f7cacd","rgb":[247,202,205],"cmyk":[0,18,17,3],"hsb":[356,18,97],"hsl":[356,74,88],"lab":[85,16,5]},{"name":"Non Photo blue","hex":"84e6f8","rgb":[132,230,248],"cmyk":[47,7,0,3],"hsb":[189,47,97],"hsl":[189,89,75],"lab":[86,-24,-18]}]
+
+- XML
+
+<palette>
+  <color name="Tyrian purple" hex="64113f" r="100" g="17" b="63" />
+  <color name="Blush" hex="de4d86" r="222" g="77" b="134" />
+  <color name="Salmon pink" hex="f29ca3" r="242" g="156" b="163" />
+  <color name="Tea rose (red)" hex="f7cacd" r="247" g="202" b="205" />
+  <color name="Non Photo blue" hex="84e6f8" r="132" g="230" b="248" />
+</palette>

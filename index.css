@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 98%);
+  --foreground: hsl(327, 71%, 23%); /* Tyrian purple */
+  --muted: hsl(356, 18%, 95%); /* Tea rose light */
+  --muted-foreground: hsl(327, 71%, 30%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(327, 71%, 23%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(327, 71%, 23%);
+  --border: hsl(356, 18%, 88%);
+  --input: hsl(356, 18%, 92%);
+  --primary: hsl(327, 71%, 23%); /* Tyrian purple */
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(336, 69%, 59%); /* Blush */
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --accent: hsl(355, 77%, 78%); /* Salmon pink */
+  --accent-foreground: hsl(327, 71%, 23%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --ring: hsl(327, 71%, 23%);
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: hsl(327, 83%, 8%); /* Dark tyrian */
+  --foreground: hsl(356, 18%, 95%);
+  --muted: hsl(327, 71%, 15%);
+  --muted-foreground: hsl(356, 18%, 75%);
+  --popover: hsl(327, 71%, 12%);
+  --popover-foreground: hsl(356, 18%, 95%);
+  --card: hsl(327, 71%, 12%);
+  --card-foreground: hsl(356, 18%, 95%);
+  --border: hsl(327, 71%, 18%);
+  --input: hsl(327, 71%, 15%);
+  --primary: hsl(356, 18%, 95%);
+  --primary-foreground: hsl(327, 71%, 23%);
+  --secondary: hsl(336, 69%, 45%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --accent: hsl(355, 77%, 65%);
+  --accent-foreground: hsl(327, 71%, 10%);
+  --destructive: hsl(0, 84%, 45%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --ring: hsl(356, 18%, 85%);
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
